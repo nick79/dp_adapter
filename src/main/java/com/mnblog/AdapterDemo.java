@@ -9,6 +9,6 @@ public class AdapterDemo {
         MyLogger logger = MyLogger.create();
         logger.trace("Trace message");
         logger.debug("Debug message");
-        logger.info("Info message");
+        logger.log("Info message");
     }
 }

@@ -17,7 +17,7 @@ public class CommonsLogAdapter extends MyLogger {
         logger.debug(message);
     }
 
-    public void info(String message) {
+    public void log(String message) {
         logger.info(message);
     }
 }

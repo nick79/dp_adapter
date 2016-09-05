@@ -13,7 +13,7 @@ public class MyLoggerImpl extends MyLogger {
         System.out.println("DEBUG: " + message);
     }
 
-    public void info(String message) {
+    public void log(String message) {
         System.out.println("INFO: " + message);
     }
 }

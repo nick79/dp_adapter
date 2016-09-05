@@ -7,7 +7,7 @@ public abstract class MyLogger {
 
     public abstract void trace(String message);
     public abstract void debug(String message);
-    public abstract void info(String message);
+    public abstract void log(String message);
 
     public static MyLogger create() {
         // return new MyLoggerImpl();
